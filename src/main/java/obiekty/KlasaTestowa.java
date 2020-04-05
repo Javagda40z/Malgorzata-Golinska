@@ -8,8 +8,8 @@ public class KlasaTestowa {
         Animal zwierzeta[] = new Animal[5];
         List<Animal> listaZwierzat = new ArrayList<>(); //new ArrayList<Animal>();
 
-        zwierzeta[0] = new Cat(); //dodanie do tablicy
-        zwierzeta[1] = new Cat();
+        zwierzeta[0] = new Cat(""); //dodanie do tablicy
+        zwierzeta[1] = new Cat("");
         zwierzeta[2] = new Cow();
         zwierzeta[3] = new Dog();
         zwierzeta[4] = new Dog();

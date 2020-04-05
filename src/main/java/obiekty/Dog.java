@@ -1,6 +1,17 @@
 package obiekty;
 
 public class Dog implements Animal {
+
+    private String imie;
+
+    public Dog(String imie) {
+        this.imie = imie;
+    }
+
+    public Dog() {
+        this("też jakieś imię");
+    }
+
     public void aportuj() {
         // pies aportuje
     }
@@ -8,5 +19,14 @@ public class Dog implements Animal {
     @Override
     public void makeSound() {
         System.out.println("hau hau!");
+    }
+
+    @Override
+    public void move() {
+        System.out.println("chodzę");
+    }
+
+    public String getImie() {
+        return imie;
     }
 }
