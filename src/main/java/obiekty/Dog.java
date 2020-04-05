@@ -8,10 +8,6 @@ public class Dog implements Animal {
         this.imie = imie;
     }
 
-    public Dog() {
-        this("też jakieś imię");
-    }
-
     public void aportuj() {
         // pies aportuje
     }
