@@ -11,11 +11,11 @@ public class KlasaTestowa {
         zwierzeta[0] = new Cat(""); //dodanie do tablicy
         zwierzeta[1] = new Cat("");
         zwierzeta[2] = new Cow();
-        zwierzeta[3] = new Dog();
-        zwierzeta[4] = new Dog();
+       // zwierzeta[3] = new Dog();
+       // zwierzeta[4] = new Dog();
 
-        listaZwierzat.add(new Dog()); //dodanie do listy
-        listaZwierzat.add(new Dog());
+       // listaZwierzat.add(new Dog()); //dodanie do listy
+       // listaZwierzat.add(new Dog());
         listaZwierzat.add(new Cow());
         listaZwierzat.add(new Cow());
         listaZwierzat.add(new Cat());
